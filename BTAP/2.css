@@ -1,0 +1,19 @@
+div{
+    width: 600px;
+}
+header{
+    background-color: tomato ;
+    padding : 10px;
+    padding-left : 10px;
+    color: white;
+}
+img{
+    width: 600px;
+    height: 650px;
+}
+footer{
+    background-color: tomato ;
+    padding : 10px;
+    padding-left : 10px;
+    color: white;
+}
