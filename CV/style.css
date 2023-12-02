@@ -332,12 +332,12 @@ body {
     display: flex;
 }
 .intro4 .container4 .left-column4 {
-    flex:50%;
+    flex:40%;
     background-color: white; /* Màu nền cho phần "TECHNOLOGY" */
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .intro4 .container4 .right-column4 {
-    flex:50%;
+    flex:60%;
     background-color: white; /* Màu nền cho phần "TECHNOLOGY" */
     padding-right: 10px;
 }
@@ -353,29 +353,6 @@ body {
     margin-right: 150px;
 
 }
-.intro4 .container5{
-    margin-top: 10px;
-}
-.intro4 .container5 {
-    display: flex;
-}
-.intro4 .container5 .left-column5{
-    flex:50%;
-    background-color: white; /* Màu nền cho phần "TECHNOLOGY" */
-    padding-right: 5px;
-}
-.intro4 .container5 .right-column5{
-    flex:50%;
-    background-color: white; /* Màu nền cho phần "TECHNOLOGY" */
-    padding-right: 5px;
-}
-.intro4 .container5 .left-column5 li{
-    padding-left: 0px;
-    list-style: none;
-    margin-bottom: 5px;
-    margin-right: 100px;
-}
-
 .intro4 .container4 .right-column4 h2{
     color:#033452  ;
     margin-bottom: 5px ;
@@ -383,30 +360,109 @@ body {
 .intro4 .container4 .right-column4 .underline {
     border: none; /* Loại bỏ đường gạch ngang mặc định của phần tử hr */
     border-bottom: 2px solid #033452;
-    width: 95px; /* Chiều rộng của đường gạch ngang */
+    width: 150px; /* Chiều rộng của đường gạch ngang */
     margin-top: 5px; /* Khoảng cách từ trên xuống */
     margin-right: 150px;
 
 }
-.intro4 .right-column4 .container6{
-    margin-top: 10px;
-}
-.intro4 .right-column4 .container6 {
-    display: flex;
-}
-.intro4 .right-column4 .container6 .left-column6{
-    flex:50%;
-    background-color: white; /* Màu nền cho phần "TECHNOLOGY" */
-    padding-right: 10px;
-}
-.intro4 .right-column4 .container6 .right-column6{
-    flex:50%;
-    background-color: white; /* Màu nền cho phần "TECHNOLOGY" */
-    padding-right: 10px;
-}
-.intro4 .right-column4 .container6 .left-column6 li{
-    padding-left: 0px;
+.intro4 .container4 .left-column4 li{
     list-style: none;
-    margin-bottom: 5px;
-    margin-right: 120px;
+}
+.intro4 .container4 .right-column4 li{
+    list-style: none;
+    
+}
+
+.intro4 .container4 .left-column4 .expertise p{
+    margin: 5px;
+}
+.intro4 .container4 .left-column4 .expertise li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.intro4 .container4 .left-column4 .expertise .bar{
+    background: white;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.intro4 .container4 .left-column4 .expertise .bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.intro4 .container4 .left-column4 .expertise .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(14, 74, 134)0%, rgb(0, 108, 250)100%);
+}
+.intro4 .container4 .left-column4 .expertise .bar .a1{
+    width: 90%;
+    animation: a1 3s;
+}
+.intro4 .container4 .left-column4 .expertise .bar .a2{
+    width: 40%;
+    animation: a2 3s;
+}
+.intro4 .container4 .left-column4 .expertise .bar .a3{
+    width: 65%;
+    animation: a3 3s;
+}
+.intro4 .container4 .left-column4 .expertise .bar .a4{
+    width: 79%;
+    animation: a4 3s;
+}
+.intro4 .container4 .left-column4 .expertise .bar .a5{
+    width: 56%;
+    animation: a5 3s;
+}
+
+.intro4 .container4 .right-column4 .skills p{
+    margin: 5px;
+}
+.intro4 .container4 .right-column4 .skills li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.intro4 .container4 .right-column4 .skills .bar{
+    background: white;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.intro4 .container4 .right-column4 .skills .bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.intro4 .container4 .right-column4 .skills .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(14, 74, 134)0%, rgb(0, 108, 250)100%);
+}
+.intro4 .container4 .right-column4 .skills .bar .a1{
+    width: 90%;
+    animation: a1 3s;
+}
+.intro4 .container4 .right-column4 .skills .bar .a2{
+    width: 40%;
+    animation: a2 3s;
+}
+.intro4 .container4 .right-column4 .skills .bar .a3{
+    width: 65%;
+    animation: a3 3s;
+}
+.intro4 .container4 .right-column4 .skills .bar .a4{
+    width: 79%;
+    animation: a4 3s;
+}
+.intro4 .container4 .right-column4 .skills .bar .a5{
+    width: 56%;
+    animation: a5 3s;
 }
